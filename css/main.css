@@ -1499,20 +1499,22 @@ header .logo a {
 }
 
 .intro-info {
+	display: flex;
+	flex-direction: row;
 	margin-top: 4.2rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 25rem;
+	width: 25rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 6rem;
 }
 
 .about-content {
@@ -1573,6 +1575,7 @@ header .logo a {
 	.intro-info {
 		margin-right: 0;
 		margin-left: 0;
+		
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1601,12 +1604,16 @@ header .logo a {
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 25rem;
+		width: 25rem;
 		float: none;
 		display: inline-block;
+		margin-left: 12%;
 	}
 	.intro-info .lead {
 		padding-left: 0;
