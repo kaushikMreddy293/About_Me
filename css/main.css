@@ -689,7 +689,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
 	background: #ff0077;
-	color: #000000;
+	color: #FFFFFF;
 	outline: 0;
 }
 .button.button-primary,
@@ -1583,13 +1583,20 @@ header .logo a {
 
 .category {
     text-align: center;
-    margin: 0 20px;
+    margin: 0 20px 20px;
 }
 
 .category strong {
-    font-size: 18px;
-    margin-bottom: 10px;
+    /* font-size: 18px; */
+    /* margin-bottom: 10px; */
     display: block;
+	font-family: "poppins-bold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
+	margin-bottom: 20px;
 }
 
 
