@@ -348,6 +348,10 @@ th:last-child, td:last-child {
 	-webkit-overflow-scrolling: touch;
 }
 
+.customTextColor{
+	color: white;
+}
+
 /**
  * Spacing - (_document-setup.scss)  
  * -------------------------------------------------------------------
@@ -1536,6 +1540,9 @@ header .logo a {
 .about-content .info-list li {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
+	display: inline-block;
+    margin-right: 20px; 
+
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
@@ -1565,6 +1572,27 @@ header .logo a {
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
 }
+.skill-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.category {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.category strong {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
 
 /**
  * responsive:
