@@ -162,6 +162,10 @@
 	  document.getElementById('extracurriculars').addEventListener('click', function() {
 		window.location.href = 'extra.html'; // Change to the desired file or URL
 	});
+
+	document.getElementById('projects').addEventListener('click', function() {
+		window.location.href = 'projects.html'; // Change to the desired file or URL
+	});
 	
 
    /*---------------------------------------------------- */
